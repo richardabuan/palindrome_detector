@@ -1,0 +1,9 @@
+services:
+  # A Docker web service
+  - type: web
+    name: palindrome-detector-example
+    runtime: python
+    plan: free
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn __init__:app
