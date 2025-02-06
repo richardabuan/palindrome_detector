@@ -1,4 +1,4 @@
---extra-index-url https://testpypi.python.org/pypi
+--extra-index-url https://test.pypi.org/simple
 palindrome_mhartl==0.0.12
 blinker==1.9.0
 click==8.1.8
